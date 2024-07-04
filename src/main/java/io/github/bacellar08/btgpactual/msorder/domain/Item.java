@@ -16,6 +16,12 @@ public class Item {
     public Item() {
     }
 
+    public Item(String product, Long quantity, BigDecimal price) {
+        this.product = product;
+        this.quantity = quantity;
+        this.price = price;
+    }
+
     public String getProcut() {
         return product;
     }
